@@ -32,6 +32,7 @@ function onSearch(event) {
                 captionsData: 'alt',
                 captionsDelay: 250,
             });
+            lightbox.refresh();
         })
         .catch(error => console.log(error))
         .finally(() => {
